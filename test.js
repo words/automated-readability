@@ -1,14 +1,17 @@
 'use strict';
 
 /**
- * Module dependencies (automatedReadability, assert).
+ * Dependencies.
  */
 
-var automatedReadability = require('./'),
-    assert = require('assert');
+var automatedReadability,
+    assert;
+
+automatedReadability = require('./');
+assert = require('assert');
 
 /**
- * Assert, but up to 6 digits.
+ * Utilities.
  */
 
 function roundAssert(a, b) {
@@ -16,7 +19,7 @@ function roundAssert(a, b) {
 }
 
 /**
- * Unit tests.
+ * Tests.
  */
 
 describe('automatedReadability()', function () {
