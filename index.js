@@ -4,9 +4,13 @@
  * The constants as defined by the Automated Readability Index.
  */
 
-var CHARACTER_WEIGHT = 4.71,
-    SENTENCE_WEIGHT = 0.5,
-    BASE = 21.43;
+var CHARACTER_WEIGHT,
+    SENTENCE_WEIGHT,
+    BASE;
+
+CHARACTER_WEIGHT = 4.71;
+SENTENCE_WEIGHT = 0.5;
+BASE = 21.43;
 
 /**
  * Get the grade level of a given value according to the Automated Readability
