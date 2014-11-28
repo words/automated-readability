@@ -1,5 +1,5 @@
 
-n.n.n / 2014-11-28
+0.1.0 / 2014-11-28
 ==================
 
  * Add link to personal website to copyright in `Readme.md`
