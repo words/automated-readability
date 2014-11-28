@@ -10,8 +10,8 @@
     "index",
     "formula"
   ],
+  "repository": "wooorm/automated-readability",
   "scripts": [
     "index.js"
-  ],
-  "repository": "wooorm/automated-readability"
+  ]
 }
