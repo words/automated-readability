@@ -4,7 +4,7 @@
  * Module dependencies (automatedReadability, assert).
  */
 
-var automatedReadability = require('..'),
+var automatedReadability = require('./'),
     assert = require('assert');
 
 /**
