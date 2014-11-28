@@ -1,4 +1,4 @@
-# automated-readability [![Build Status](https://travis-ci.org/wooorm/automated-readability.svg?branch=master)](https://travis-ci.org/wooorm/automated-readability) [![Coverage Status](https://img.shields.io/coveralls/wooorm/automated-readability.svg)](https://coveralls.io/r/wooorm/automated-readability?branch=master)
+# automated-readability [![Build Status](https://img.shields.io/travis/wooorm/automated-readability.svg?style=flat)](https://travis-ci.org/wooorm/automated-readability) [![Coverage Status](https://img.shields.io/coveralls/wooorm/automated-readability.svg?style=flat)](https://coveralls.io/r/wooorm/automated-readability?branch=master)
 
 Formula to detect the ease of reading a text according to the [Automated Readability Index](http://en.wikipedia.org/wiki/Automated_Readability_Index).
 
