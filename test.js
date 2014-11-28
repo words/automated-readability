@@ -56,9 +56,9 @@ describe('automatedReadability()', function () {
          */
 
         roundAssert(automatedReadability({
-            'sentence' : 6,
-            'word' : 151,
-            'character' : 623
+            'sentence': 6,
+            'word': 151,
+            'character': 623
         }), 10.585982);
     });
 });
