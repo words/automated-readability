@@ -72,4 +72,4 @@ Given an object containing the number of words (`word`), the number of sentences
 
 ## License
 
-MIT © Titus Wormer
+MIT © [Titus Wormer](http://wooorm.com)
