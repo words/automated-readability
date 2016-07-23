@@ -16,9 +16,9 @@
   },
   "author": "Titus Wormer <tituswormer@gmail.com>",
   "devDependencies": {
-    "eslint": "^0.10.0",
-    "istanbul": "^0.3.0",
-    "jscs": "^1.0.0",
+    "eslint": "^3.1.1",
+    "istanbul": "^0.4.4",
+    "jscs": "^3.0.7",
     "mocha": "^2.0.0"
   },
   "scripts": {
