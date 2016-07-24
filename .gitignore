@@ -1,7 +1,8 @@
 .DS_Store
 *.log
-bower_components/
-build/
-components/
-node_modules/
+.nyc_output/
 coverage/
+data/
+node_modules/
+automated-readability.js
+automated-readability.min.js

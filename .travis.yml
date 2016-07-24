@@ -1,13 +1,26 @@
 language: node_js
-script: npm run-script test-travis
+sudo: false
 node_js:
-- '0.10'
 - '0.11'
-after_script: npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls
+- '0.12'
+- '4.0'
+- '5.0'
+- '6.0'
+after_success: bash <(curl -s https://codecov.io/bash)
 deploy:
-  provider: npm
-  email: tituswormer@gmail.com
-  api_key:
-    secure: Mz1K47s2WElSbZyr2/rF3g6VQdU6qCCXpTQZA9Tw1J1X+Uka2mxx88YvgnLDHKfy6MgL6YOdaXgqDXGuH81l4a+f0rnyI41qpWJQC9sE0piJsEQZdIRXPbkzPtpfEZVPdaAZ+ktMvmCC4IrjnYKv7eLkdRm/WTo28xZtCqZOsgc=
-  on:
-    repo: wooorm/automated-readability
+  - provider: npm
+    email: tituswormer@gmail.com
+    api_key:
+      secure: RKZj6AECnSTWxRlEcVEOIYLXnF1vd0qGaRmcIeFFbwtug+r6CaOUnHs6FL+kEFEpzsmSQW7C5uSEKawrWSwXFblFSa/ZrrlKm2w9Kf3+NdM1jpVYV3q7hLk8Ridwl824MP4v/FOo0yx6PfTYhQTryPudLKqI1E7NO1x7k3NjquA=
+    on:
+      tags: true
+      node: '5.0'
+  - provider: releases
+    api_key:
+      secure: b8brkaR+W/WSfYwxCnS9CDuvwzBSF8jaOjIE3dlmwoqmKFhIJwU4bfNiFAJ6W2A75g1hj7tdsdG2Gzpww+9mNNyS5ag1SwqYwVJTBQ0E6QEpy8G4SJWGLnJZwM5sGvLAbR0axh0uXli+UgmB7cZq6dd5qF75PVedgJns5BY0C8I=
+    file:
+      - "automated-readability.js"
+      - "automated-readability.min.js"
+    on:
+      tags: true
+      node: '6.0'

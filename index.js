@@ -1,43 +1,42 @@
-'use strict';
-
 /**
- * The constants as defined by the Automated Readability Index.
+ * @author Titus Wormer
+ * @copyright 2014 Titus Wormer
+ * @license MIT
+ * @module automated-readability
+ * @fileoverview Detect ease of reading according to the
+ *   Automated Readability Index (1967).
  */
 
-var CHARACTER_WEIGHT,
-    SENTENCE_WEIGHT,
-    BASE;
+'use strict';
 
-CHARACTER_WEIGHT = 4.71;
-SENTENCE_WEIGHT = 0.5;
-BASE = 21.43;
+/* Expose. */
+module.exports = automatedReadability;
+
+/* The constants as defined by the Automated Readability Index. */
+var CHARACTER_WEIGHT = 4.71;
+var SENTENCE_WEIGHT = 0.5;
+var BASE = 21.43;
 
 /**
- * Get the grade level of a given value according to the Automated Readability
- * Index. More information is available at WikiPedia:
+ * Get the grade level of a given value according to the
+ * Automated Readability Index.  More information is
+ * available at WikiPedia:
  *
  *   http://en.wikipedia.org/wiki/Automated_Readability_Index
  *
  * @param {Object} counts
  * @param {number} counts.word - Number of words.
  * @param {number} counts.sentence - Number of sentences.
- * @param {number} counts.character - Number of characters (letters,
- *   numbers, punctuation marks).
+ * @param {number} counts.character - Number of characters
+ *   (letters, numbers, punctuation marks).
  * @return {number}
  */
-
 function automatedReadability(counts) {
-    if (!counts || !counts.sentence || !counts.word || !counts.character) {
-        return NaN;
-    }
+  if (!counts || !counts.sentence || !counts.word || !counts.character) {
+    return NaN;
+  }
 
-    return CHARACTER_WEIGHT * (counts.character / counts.word) +
-        SENTENCE_WEIGHT * (counts.word / counts.sentence) -
-        BASE;
+  return (CHARACTER_WEIGHT * (counts.character / counts.word)) +
+    (SENTENCE_WEIGHT * (counts.word / counts.sentence)) -
+    BASE;
 }
-
-/**
- * Export `automatedReadability`.
- */
-
-module.exports = automatedReadability;
