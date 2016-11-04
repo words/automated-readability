@@ -1,11 +1,3 @@
-/**
- * @author Titus Wormer
- * @copyright 2014 Titus Wormer
- * @license MIT
- * @module automated-readability
- * @fileoverview Test suite for `automated-readability`.
- */
-
 'use strict';
 
 /* Dependencies. */

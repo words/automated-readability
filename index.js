@@ -1,12 +1,3 @@
-/**
- * @author Titus Wormer
- * @copyright 2014 Titus Wormer
- * @license MIT
- * @module automated-readability
- * @fileoverview Detect ease of reading according to the
- *   Automated Readability Index (1967).
- */
-
 'use strict';
 
 /* Expose. */
