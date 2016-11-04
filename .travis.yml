@@ -2,9 +2,8 @@ language: node_js
 sudo: false
 node_js:
 - '4.0'
-- '5.0'
-- '6.0'
-after_success: bash <(curl -s https://codecov.io/bash)
+- '7.0'
+after_script: bash <(curl -s https://codecov.io/bash)
 deploy:
   - provider: npm
     email: tituswormer@gmail.com
@@ -12,7 +11,7 @@ deploy:
       secure: RKZj6AECnSTWxRlEcVEOIYLXnF1vd0qGaRmcIeFFbwtug+r6CaOUnHs6FL+kEFEpzsmSQW7C5uSEKawrWSwXFblFSa/ZrrlKm2w9Kf3+NdM1jpVYV3q7hLk8Ridwl824MP4v/FOo0yx6PfTYhQTryPudLKqI1E7NO1x7k3NjquA=
     on:
       tags: true
-      node: '5.0'
+      node: '4.0'
   - provider: releases
     api_key:
       secure: b8brkaR+W/WSfYwxCnS9CDuvwzBSF8jaOjIE3dlmwoqmKFhIJwU4bfNiFAJ6W2A75g1hj7tdsdG2Gzpww+9mNNyS5ag1SwqYwVJTBQ0E6QEpy8G4SJWGLnJZwM5sGvLAbR0axh0uXli+UgmB7cZq6dd5qF75PVedgJns5BY0C8I=
@@ -21,4 +20,4 @@ deploy:
       - "automated-readability.min.js"
     on:
       tags: true
-      node: '6.0'
+      node: '7.0'
