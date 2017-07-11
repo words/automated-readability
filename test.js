@@ -1,6 +1,5 @@
 'use strict';
 
-/* Dependencies. */
 var test = require('tape');
 var nan = require('is-nan');
 var automatedReadability = require('./');
@@ -9,8 +8,7 @@ var automatedReadability = require('./');
 test('automatedReadability', function (t) {
   t.ok(nan(automatedReadability()), 'NaN when an invalid value is given');
 
-  /**
-   * The rule of rhythm in prose is not so intricate. Here, too, we
+  /* The rule of rhythm in prose is not so intricate. Here, too, we
    * write in groups, or phrases, as I prefer to call them, for the
    * prose phrase is greatly longer and is much more nonchalantly
    * uttered than the group in verse; so that not only is there a
@@ -23,11 +21,7 @@ test('automatedReadability', function (t) {
    * no measure at all. Prose must be rhythmical, and it may be as
    * much so as you will; but it must not be metrical. It may be
    * anything, but it must not be verse.
-   *
-   * Sentences: 6
-   * Words: 151
-   * Characters: 623
-   */
+   * Sentences: 6, words: 151, characters: 623. */
 
   t.equal(
     round(automatedReadability({
