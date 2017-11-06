@@ -77,13 +77,13 @@ a document, returns the grade level associated with the document.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/wooorm/automated-readability.svg
+[travis-badge]: https://img.shields.io/travis/words/automated-readability.svg
 
-[travis]: https://travis-ci.org/wooorm/automated-readability
+[travis]: https://travis-ci.org/words/automated-readability
 
-[codecov-badge]: https://img.shields.io/codecov/c/github/wooorm/automated-readability.svg
+[codecov-badge]: https://img.shields.io/codecov/c/github/words/automated-readability.svg
 
-[codecov]: https://codecov.io/github/wooorm/automated-readability
+[codecov]: https://codecov.io/github/words/automated-readability
 
 [npm]: https://docs.npmjs.com/cli/install
 

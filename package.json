@@ -10,8 +10,8 @@
     "index",
     "formula"
   ],
-  "repository": "https://github.com/wooorm/automated-readability",
-  "bugs": "https://github.com/wooorm/automated-readability/issues",
+  "repository": "https://github.com/words/automated-readability",
+  "bugs": "https://github.com/words/automated-readability/issues",
   "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
