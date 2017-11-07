@@ -56,19 +56,19 @@ a document, returns the grade level associated with the document.
 
 ## Related
 
-*   [`coleman-liau`](https://github.com/wooorm/coleman-liau)
+*   [`coleman-liau`](https://github.com/words/coleman-liau)
     — Uses letter count instead of an error-prone syllable parser
-*   [`dale-chall-formula`](https://github.com/wooorm/dale-chall-formula)
+*   [`dale-chall-formula`](https://github.com/words/dale-chall-formula)
     — Uses a dictionary, suited for higher reading levels
-*   [`flesch`](https://github.com/wooorm/flesch)
+*   [`flesch`](https://github.com/words/flesch)
     — Uses syllable count
-*   [`flesch-kincaid`](https://github.com/wooorm/flesch-kincaid)
+*   [`flesch-kincaid`](https://github.com/words/flesch-kincaid)
     — Like `flesch-formula`, returns U.S. grade levels
-*   [`gunning-fog`](https://github.com/wooorm/gunning-fog)
+*   [`gunning-fog`](https://github.com/words/gunning-fog)
     — Uses syllable count, hard to implement (needs POS-tagging and NER)
-*   [`smog-formula`](https://github.com/wooorm/smog-formula)
+*   [`smog-formula`](https://github.com/words/smog-formula)
     — Like `gunning-fog-index`, without the need for advanced NLP tasks
-*   [`spache-formula`](https://github.com/wooorm/spache-formula)
+*   [`spache-formula`](https://github.com/words/spache-formula)
     — Uses a dictionary, suited for lower reading levels
 
 ## License
