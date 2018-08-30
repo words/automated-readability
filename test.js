@@ -2,7 +2,7 @@
 
 var test = require('tape');
 var nan = require('is-nan');
-var automatedReadability = require('./');
+var automatedReadability = require('.');
 
 /* Tests. */
 test('automatedReadability', function (t) {
