@@ -86,6 +86,6 @@ a document, returns the grade level associated with the document.
 
 [license]: license
 
-[author]: http://wooorm.com
+[author]: https://wooorm.com
 
-[formula]: http://en.wikipedia.org/wiki/Automated_Readability_Index
+[formula]: https://en.wikipedia.org/wiki/Automated_Readability_Index
