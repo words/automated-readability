@@ -1,4 +1,9 @@
-# automated-readability [![Build Status][travis-badge]][travis] [![Coverage Status][codecov-badge]][codecov]
+# automated-readability
+
+[![Build][build-badge]][build]
+[![Coverage][coverage-badge]][coverage]
+[![Downloads][downloads-badge]][downloads]
+[![Size][size-badge]][size]
 
 Formula to detect the ease of reading a text according to the
 [Automated Readability Index][formula].
@@ -74,13 +79,21 @@ a document, returns the grade level associated with the document.
 
 <!-- Definitions -->
 
-[travis-badge]: https://img.shields.io/travis/words/automated-readability.svg
+[build-badge]: https://img.shields.io/travis/words/automated-readability.svg
 
-[travis]: https://travis-ci.org/words/automated-readability
+[build]: https://travis-ci.org/words/automated-readability
 
-[codecov-badge]: https://img.shields.io/codecov/c/github/words/automated-readability.svg
+[coverage-badge]: https://img.shields.io/codecov/c/github/words/automated-readability.svg
 
-[codecov]: https://codecov.io/github/words/automated-readability
+[coverage]: https://codecov.io/github/words/automated-readability
+
+[downloads-badge]: https://img.shields.io/npm/dm/automated-readability.svg
+
+[downloads]: https://www.npmjs.com/package/automated-readability
+
+[size-badge]: https://img.shields.io/bundlephobia/minzip/automated-readability.svg
+
+[size]: https://bundlephobia.com/result?p=automated-readability
 
 [npm]: https://docs.npmjs.com/cli/install
 
