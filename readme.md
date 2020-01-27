@@ -5,18 +5,18 @@
 [![Downloads][downloads-badge]][downloads]
 [![Size][size-badge]][size]
 
-Formula to detect the ease of reading a text according to the
-[Automated Readability Index][formula].
+Formula to detect the ease of reading a text according to the [automated
+readability index][formula].
 
-## Installation
+## Install
 
 [npm][]:
 
-```bash
+```sh
 npm install automated-readability
 ```
 
-## Usage
+## Use
 
 ```js
 var automatedReadability = require('automated-readability')
@@ -52,9 +52,9 @@ automatedReadability({
 
 ### `automatedReadability(counts)`
 
-Given an object containing the number of words (`word`), the number of
-sentences (`sentence`), and the number of characters  (`character`) in
-a document, returns the grade level associated with the document.
+Given an object containing the number of words (`word`), the number of sentences
+(`sentence`), and the number of characters  (`character`) in a document, returns
+the grade level associated with the document.
 
 ## Related
 
