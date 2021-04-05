@@ -79,9 +79,9 @@ the grade level associated with the document.
 
 <!-- Definitions -->
 
-[build-badge]: https://img.shields.io/travis/words/automated-readability.svg
+[build-badge]: https://github.com/words/automated-readability/workflows/main/badge.svg
 
-[build]: https://travis-ci.org/words/automated-readability
+[build]: https://github.com/words/automated-readability/actions
 
 [coverage-badge]: https://img.shields.io/codecov/c/github/words/automated-readability.svg
 
