@@ -1,8 +1,5 @@
 .DS_Store
 *.log
-.nyc_output/
 coverage/
 node_modules/
-automated-readability.js
-automated-readability.min.js
 yarn.lock

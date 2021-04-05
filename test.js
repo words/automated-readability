@@ -1,7 +1,5 @@
-'use strict'
-
-var test = require('tape')
-var automatedReadability = require('.')
+import test from 'tape'
+import {automatedReadability} from './index.js'
 
 test('automatedReadability', function (t) {
   t.ok(

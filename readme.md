@@ -10,6 +10,9 @@ readability index][formula].
 
 ## Install
 
+This package is ESM only: Node 12+ is needed to use it and it must be `import`ed
+instead of `require`d.
+
 [npm][]:
 
 ```sh
@@ -19,7 +22,7 @@ npm install automated-readability
 ## Use
 
 ```js
-var automatedReadability = require('automated-readability')
+import {automatedReadability} from 'automated-readability'
 
 // For:
 //
@@ -45,10 +48,13 @@ automatedReadability({
   word: 151,
   character: 623
 })
-// => 10.585982...
+// => 10.585982…
 ```
 
 ## API
+
+This package exports the following identifiers: `automatedReadability`.
+There is no default export.
 
 ### `automatedReadability(counts)`
 
