@@ -4,7 +4,7 @@ var test = require('tape')
 var nan = require('is-nan')
 var automatedReadability = require('.')
 
-test('automatedReadability', function(t) {
+test('automatedReadability', function (t) {
   t.ok(nan(automatedReadability()), 'NaN when an invalid value is given')
 
   // The rule of rhythm in prose is not so intricate. Here, too, we
@@ -30,6 +30,6 @@ test('automatedReadability', function(t) {
   t.end()
 })
 
-function round(val) {
-  return Math.round(val * 1e6) / 1e6
+function round(value) {
+  return Math.round(value * 1e6) / 1e6
 }

@@ -8,7 +8,7 @@ var base = 21.43
 
 function automatedReadability(counts) {
   if (!counts || !counts.sentence || !counts.word || !counts.character) {
-    return NaN
+    return Number.NaN
   }
 
   return (
