@@ -25,7 +25,6 @@
   ],
   "devDependencies": {
     "browserify": "^17.0.0",
-    "is-nan": "^1.0.0",
     "nyc": "^15.0.0",
     "prettier": "^2.0.0",
     "remark-cli": "^9.0.0",

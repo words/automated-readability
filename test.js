@@ -1,11 +1,13 @@
 'use strict'
 
 var test = require('tape')
-var nan = require('is-nan')
 var automatedReadability = require('.')
 
 test('automatedReadability', function (t) {
-  t.ok(nan(automatedReadability()), 'NaN when an invalid value is given')
+  t.ok(
+    Number.isNaN(automatedReadability()),
+    'NaN when an invalid value is given'
+  )
 
   // The rule of rhythm in prose is not so intricate. Here, too, we
   // write in groups, or phrases, as I prefer to call them, for the
