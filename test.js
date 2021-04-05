@@ -3,6 +3,7 @@ import {automatedReadability} from './index.js'
 
 test('automatedReadability', function (t) {
   t.ok(
+    // @ts-ignore runtime
     Number.isNaN(automatedReadability()),
     'NaN when an invalid value is given'
   )
@@ -30,6 +31,10 @@ test('automatedReadability', function (t) {
   t.end()
 })
 
+/**
+ * @param {number} value
+ * @returns {number}
+ */
 function round(value) {
   return Math.round(value * 1e6) / 1e6
 }
