@@ -24,7 +24,7 @@ test('automatedReadability', function (t) {
   // Sentences: 6, words: 151, characters: 623.
   t.equal(
     round(automatedReadability({sentence: 6, word: 151, character: 623})),
-    round(10.585982),
+    round(10.585_982),
     'should work'
   )
 

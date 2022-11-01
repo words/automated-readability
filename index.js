@@ -1,6 +1,6 @@
-var characterWeight = 4.71
-var sentenceWeight = 0.5
-var base = 21.43
+const characterWeight = 4.71
+const sentenceWeight = 0.5
+const base = 21.43
 
 /**
  * @typedef {Object.<string, number>} AutomatedReadabilityCounts
