@@ -1,8 +1,9 @@
-import test from 'tape'
+import assert from 'node:assert'
+import test from 'node:test'
 import {automatedReadability} from './index.js'
 
-test('automatedReadability', function (t) {
-  t.ok(
+test('automatedReadability', function () {
+  assert.ok(
     // @ts-ignore runtime
     Number.isNaN(automatedReadability()),
     'NaN when an invalid value is given'
@@ -22,13 +23,11 @@ test('automatedReadability', function (t) {
   // much so as you will; but it must not be metrical. It may be
   // anything, but it must not be verse.
   // Sentences: 6, words: 151, characters: 623.
-  t.equal(
+  assert.equal(
     round(automatedReadability({sentence: 6, word: 151, character: 623})),
     round(10.585_982),
     'should work'
   )
-
-  t.end()
 })
 
 /**
