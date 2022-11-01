@@ -1,6 +1,6 @@
 {
   "name": "automated-readability",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Formula to detect the ease of reading a text according to the Automated Readability Index (1967)",
   "license": "MIT",
   "keywords": [
